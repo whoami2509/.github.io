@@ -1,0 +1,6 @@
+D:\Lap Trinh Web\DaoHoangSon_QLBanPKMT\DaoHoangSon_QLBanPKMT\bin\DaoHoangSon_QLBanPKMT.dll.config
+D:\Lap Trinh Web\DaoHoangSon_QLBanPKMT\DaoHoangSon_QLBanPKMT\bin\DaoHoangSon_QLBanPKMT.dll
+D:\Lap Trinh Web\DaoHoangSon_QLBanPKMT\DaoHoangSon_QLBanPKMT\bin\DaoHoangSon_QLBanPKMT.pdb
+D:\Lap Trinh Web\DaoHoangSon_QLBanPKMT\DaoHoangSon_QLBanPKMT\obj\Debug\DaoHoangSon_QLBanPKMT.csprojResolveAssemblyReference.cache
+D:\Lap Trinh Web\DaoHoangSon_QLBanPKMT\DaoHoangSon_QLBanPKMT\obj\Debug\DaoHoangSon_QLBanPKMT.dll
+D:\Lap Trinh Web\DaoHoangSon_QLBanPKMT\DaoHoangSon_QLBanPKMT\obj\Debug\DaoHoangSon_QLBanPKMT.pdb

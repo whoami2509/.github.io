@@ -1,0 +1,298 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+}
+body {
+	text-align: left;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:black;     
+}
+
+div#logo{
+	float:left;
+	margin-top:20px;
+}
+a{
+	text-decoration:none;
+}
+div#dn{
+	float:right;
+}
+
+div#dn a{
+   	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#b50d0d;
+}
+header div#dn a:hover{
+	color:black;
+    cursor:pointer;
+}
+
+nav{
+	clear:both;
+	background-color:#b50d0d;
+	height:55px;
+}
+nav div#subnav{
+    width:1200px;
+    margin:0px auto;
+}
+nav ul{
+    float:left;
+	list-style:none;
+    margin-left:30px;
+}
+nav ul li{
+    float:left;
+    padding:11px 15px;
+}
+nav ul li a{
+    color:white;
+    font-size:16px;
+    font-family:Arial;
+    text-decoration:none;
+    font-weight:bold;
+    
+}
+nav ul li:hover a{
+    color:#a1c3d1;
+}
+nav div#subnav>div{
+    float:right;
+    background-color:white;
+    padding-left:10px;
+    margin-top:5px;
+    margin-right:5px;
+    height:34px;
+    width:380px;
+    border-radius:5px;
+    border:0.5px solid #CED2DD ;
+}
+nav div#subnav>div input[type=text] 
+{
+    float:left;
+    height:29px;
+    width:200px;
+    font-size:14px;
+    border:none;
+    outline:none;
+}
+nav div#subnav>div input[type=submit] 
+{
+    float:right;
+    height:100%;
+    width:80px;
+    background:#F7F2E7;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left:0.5px solid #CED2DD;
+    font-size:14px; 
+    outline:none; 
+}
+nav div#subnav>div input[type=submit]:hover{
+    cursor:pointer;
+    outline:none; 
+
+} 
+
+    
+/*Body*/
+div#body{
+    width:1200px;
+    margin:0px auto;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+article{
+   display:table-row;
+}
+
+aside#left, aside#right, section{
+    display:table-cell;
+	vertical-align:top;
+}
+
+
+/*Left*/
+aside#left{
+    width:150px;  
+}
+
+aside#left>div{
+    border:1px solid #206AB5;
+    border-radius:4px;
+    margin-bottom:10px;
+}
+aside#left>div>p{
+    background-color:white;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+    height:25px;
+    padding-top:5px;
+}
+aside#left>div>ul{
+    padding-left:10px;
+    font-size:14px;
+    font-family:Arial;
+}
+aside#left>div>ul>li{
+    height:25px;
+	list-style-position:inside;
+	list-style-image:url(../Images/icon_list.jpg);
+	padding-left:5px;
+}
+aside#left>div>ul>li a {
+    color:#206AB5;
+    text-decoration:none;
+}
+aside#left>div>ul>li a:hover {
+    color:#ff0000;
+}
+
+
+/*Content*/
+section{
+    width:750px;
+    padding:0px 8px;
+}
+
+section>p{
+    background: linear-gradient(#a5b4c4, #206AB5, #206AB5); 
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+    height:25px;
+    padding-top:5px;
+}
+
+.sach{
+    width:240px;
+    height:320px;
+    background-color:#c7e5f2;
+    margin:3px;
+    border-radius:5px;
+    border:1px dashed #79B22F;
+	text-align:center;
+	float:left;
+}
+
+.tensach {
+    margin-top:5px;
+	vertical-align:top;
+    height: 40px;
+}
+
+.tensach a{
+	font-weight:bold;
+    color:#133a62;
+    font-size:14px;
+}
+
+.tenphukien a:hover{
+    font-style:italic;
+}
+
+
+
+
+/*Tăng kích thước hình lên 1.1 khi rê chuột vào*/
+
+
+
+
+
+/*Right*/
+aside#right{
+    width:198px;  
+}
+
+aside#right>div{
+    border:1px solid #206AB5;
+    border-radius:4px;
+    margin-bottom:30px;
+}
+
+aside#right>div>p{
+    background-color:#206AB5;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+    height:25px;
+    padding-top:5px;
+}
+
+aside#right>div#sachbannhieu p{
+	clear:both;
+}
+
+aside#right>div#sachbannhieu img{
+    width:40px;
+    height:50px;
+	padding-left:5px;
+	float:left;
+	margin-bottom:5px;
+}
+
+aside#right>div#sachbannhieu a{
+	text-decoration:none;
+	font-size:9pt;
+	font-family:Arial;
+	color:#456c26;
+	height:70px;
+}
+
+aside#right>div#sachbannhieu a:hover{
+	font-weight:bold;
+}
+
+aside#right>div#lienketwebsite select{
+     margin:10px;
+     width:170px;
+     height:30px;
+     border-radius:3px;
+     border:#808080 solid 1px;
+     text-align:center;
+
+}
+
+aside#right>div#thongketruycap{
+    background-color:#e1ebf3;
+}
+
+aside#right>div#thongketruycap h4{
+     margin:10px;
+     color:red;
+}
+
+/*Footer*/
+footer{
+    margin-top:30px;
+	height:100px;
+	padding-top:50px;
+    border-top: 2px solid #ff0000;
+}
+
+footer p{
+    text-align:center;
+	font-size:17px;
+	margin-top:5px;
+}
+
+
+

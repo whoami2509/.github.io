@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="DaoHoangSon_QLBanPKMT.Default" %>
+
+<%@ Register Src="~/uc/ucheader.ascx" TagPrefix="uc1" TagName="ucheader" %>
+<%@ Register Src="~/uc/ucleft.ascx" TagPrefix="uc1" TagName="ucleft" %>
+<%@ Register Src="~/uc/ucfooter.ascx" TagPrefix="uc1" TagName="ucfooter" %>
+<%@ Register Src="~/uc/ucslider.ascx" TagPrefix="uc1" TagName="ucslider" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>Website chuyên các loại phụ kiện máy tính</title>
+    <link href="css/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc1:ucheader runat="server" id="ucheader" />
+        <uc1:ucslider runat="server" id="ucslider" />
+    <div id="body">
+        <article>
+            <uc1:ucleft runat="server" id="ucleft" />
+            <section>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+        </article>
+    </div>
+        <uc1:ucfooter runat="server" ID="ucfooter" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="DaoHoangSon_QLBanPKMT.Admin.Admin" %>
+
+<%@ Register Src="~/Admin/ucAdminHeader.ascx" TagPrefix="uc1" TagName="ucAdminHeader" %>
+<%@ Register Src="~/Admin/ucAdminLeft.ascx" TagPrefix="uc1" TagName="ucAdminLeft" %>
+<%@ Register Src="~/Admin/ucAdminFooter.ascx" TagPrefix="uc1" TagName="ucAdminFooter" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="../ckeditor/ckeditor.js"></script>
+    <title>Website chuyên các loại phụ kiện máy tính</title>
+    <link href="../css/Style.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc1:ucAdminHeader runat="server" id="ucAdminHeader" />
+    <div id="body">
+        <article>
+            <uc1:ucAdminLeft runat="server" id="ucAdminLeft" />
+            <section>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+        </article>
+    </div>
+        <uc1:ucAdminFooter runat="server" id="ucAdminFooter" />
+    </form>
+</body>
+</html>
+
